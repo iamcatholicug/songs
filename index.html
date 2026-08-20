@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Songs Library</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Songs Library</h1>
+      <p>Lyrics extracted from repository song files.</p>
+    </header>
+    <main id="posts" class="posts" aria-live="polite"></main>
+    <template id="post-template">
+      <article class="post">
+        <p class="folder"></p>
+        <h2 class="title"></h2>
+        <pre class="body"></pre>
+      </article>
+    </template>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
